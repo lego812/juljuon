@@ -5,10 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>절주온</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div class="wrapper">
+    <div id="wrapper">
       <div class="header">
+        <!-- 최상단 헤더 -->
         <div class="topHeader">
           <select name="sites" id="sites">
             <option value="site1">
@@ -62,38 +71,70 @@
               >
             </option>
           </select>
-
           <div>
-            <i></i>
+            <i class="fa-brands fa-instagram"></i>
             <span>대표 SNS</span>
           </div>
           <div>
-            <i></i>
-            <span>대표 SNS</span>
+            <i class="fa-regular fa-comment"></i>
+            <span>알콜스탑 캠페인</span>
           </div>
         </div>
-        <div>
-          <div class="secondHeader">
-            <nav class="nav">
-              <ul>
-                <div>
-                  <li><span>사업</span></li>
-                </div>
-                <div>
-                  <li><span>통계</span></li>
-                </div>
-                <div>
-                  <li><span>자료</span></li>
-                </div>
-                <div>
-                  <li><span>알림</span></li>
-                </div>
-              </ul>
-            </nav>
-            <button type="button">햄버거버튼</button>
+        <!-- 세컨 해더 -->
+        <div class="secondHeader">
+          <a href="https://www.khepi.or.kr/alcoholstop"
+            ><img src="/img/logo.svg" alt="logo"
+          /></a>
+          <nav class="firtDep">
+            <!-- 네비게이션 탭 -->
+            <ul>
+              <div>
+                <li><span>사업</span></li>
+                <!-- <ul>
+                  <li>모니터링</li>
+                  <li>홍보캠페인</li>
+                  <li>교육</li>
+                  <li>서포터즈</li>
+                  <li>지역사회 음주폐해예방사업</li>
+                </ul> -->
+              </div>
+              <div>
+                <li><span>통계</span></li>
+                <!-- <ul>
+                  <li>통계</li>
+                </ul> -->
+              </div>
+              <div>
+                <li><span>자료</span></li>
+                <!-- <ul>
+                   <li>모니터링</li>
+                  <li>홍보캠페인</li>
+                  <li>교육</li>
+                  <li>서포터즈</li>
+                  <li>지역사회 음주폐해예방사업</li>////
+                </ul> -->
+              </div>
+              <div>
+                <li><span>알림</span></li>
+                <!-- <ul>
+                  <li>공지사항&소식</li>
+                  <li>언론보도</li>
+                  <li>FAQ</li>
+                  <li>Q&A</li>
+                </ul> -->
+              </div>
+            </ul>
+          </nav>
+          <div>
+            <!-- 햄버거 버튼-->
+            <i class="fa-solid fa-bars" onclick=""></i>
           </div>
         </div>
       </div>
+      <!-- body 시작 -->
+      <div class="body"></div>
+      <!-- footer 시작 -->
+      <div class="footer"></div>
     </div>
   </body>
 </html>

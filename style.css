@@ -1,12 +1,26 @@
-body {
-
+#wrapper {
+  background-color: #dae9f5;
+  justify-items: center;
 }
 
-.wrapper{
-    width: 3000px;
-    height: 848px;
-    background-image: url("/img/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.header {
+  justify-content: space-between;
+  width: 1500px;
+}
+
+.header > .topHeader {
+  display: flex;
+}
+
+.header > .secondHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondHeader > .firstDep {
+  display: flex;
+}
+
+.body {
+  background-image: url('/img/bg.jpg');
 }
